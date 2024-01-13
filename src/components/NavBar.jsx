@@ -1,33 +1,33 @@
 import React, { useState } from 'react'
 import {FaBars, FaTimes} from 'react-icons/fa'
-
-
-
-const links = [
-    {
-        id: 1,
-        link: 'Home'
-    },
-    {
-        id: 1,
-        link: 'About'
-    },
-    {
-        id: 1,
-        link: 'Portfolio'
-    },
-    {
-        id: 1,
-        link: 'Experience'
-    },
-    {
-        id: 1,
-        link: 'Contact'
-    },
-]
+import { Link } from 'react-scroll';
 
 const NavBar = () => {
     const [nav,setNav] = useState(false)
+
+    const links = [
+        {
+            id: 1,
+            link: 'Home'
+        },
+        {
+            id: 2,
+            link: 'About'
+        },
+        {
+            id: 3,
+            link: 'Portfolio'
+        },
+        {
+            id: 4,
+            link: 'Experience'
+        },
+        {
+            id: 5,
+            link: 'Contact'
+        },
+    ]
+    
 
   return (
     <div className="flex justify-between items-center w-full h-20 text-white fixed bg-black px-4">
@@ -38,7 +38,10 @@ const NavBar = () => {
 
             {/* To render navBar from Object */}
             {links.map(({ id,link }) => (
-            <li key={id} className="px-4 cursor-pointer font-medium text-gray-500 hover:scale-105 duration-150">{link}</li>
+            <li key={id} className="px-4 cursor-pointer font-medium text-gray-500 hover:scale-105 duration-150">
+                <Link to={link} smooth duration={500}>{link}
+                </Link>
+            </li>
 
             ))}    
         </ul>
@@ -55,7 +58,13 @@ const NavBar = () => {
             
         {/* Render navContent for phone view inside fabars & fatimes icon */}
         {links.map(({ id,link }) => (
-        <li key={id} className="px-4 py-6 cursor-pointer text-4xl">{link}</li>
+        <li 
+        key={id} 
+        className="px-4 py-6 cursor-pointer text-4xl">
+           <Link to={link} smooth duration={500}>
+            {link}
+            </Link>
+        </li>
 
         ))}
         </ul>
@@ -66,4 +75,4 @@ const NavBar = () => {
   )
 }
 
-export default NavBar
+export default NavBar;
