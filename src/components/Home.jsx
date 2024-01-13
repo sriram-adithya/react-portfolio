@@ -12,7 +12,7 @@ const Home = () => {
                     I'm a Full Stack Developer
                 </h2>
                 <p className="text-gray-500 py-4 max-w-md" >
-                    I have 2 years of experience in building and desgining software. Currently I love to work on Web application using technologies like HTML, JavaSCript, React, Tailwind etc
+                    I have 2 years of experience in building and desgining software. Currently I love to work on Web application using technologies like HTML, JavaScript, React, Tailwind etc
                 </p>
                 <div>
                     <button className="group text-white w-fit px-6 py-3 my-3 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer">
