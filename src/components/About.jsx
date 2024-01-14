@@ -10,13 +10,13 @@ const About = () => {
                 </div>
 
                 <p className="text-xl mt-20">
-                    I'm working in Accenture as a devOps and backend engineer, Monitoring and maintaining applications on a dailybasis. Depends on client requirment will be working in the applications and leveraging my skills. Currently I am learning Front-end Development fellowship in Nextleap platform. 
+                    Hello World! I'm Sriram Adithya, based out of Chennai, India. I have been working in Accenture for the past 2 years as a devops engineer. On a daily Basis I will be monitoring applications with a use of Kibana, Appd, Grafana etc, Patching up servers and Maintaining applications in Cloud Foundary where it was deployed. Depends on the requirment will be working on features and leveraging my skills.
                 </p>
 
                 <br />
 
                 <p className='text-xl'>33
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto sit eum aliquam ratione libero voluptate quae reprehenderit, ab ullam rerum minus, neque veritatis fugiat! Temporibus nihil saepe vitae, consequatur magnam eius numquam autem architecto repudiandae nemo hic velit ipsum blanditiis illo, consequuntur, doloremque optio tempora omnis nesciunt fugit. Facilis, ipsam.
+                    Currently I am learning Front-End Web Developer Fellowship in Nextleap platform where I can able to develop my skill-set from industy experts. I fall in love with web technologies like React, Tailwind and they are many more which I need to explore, I have been doing couple of projects to be strong in basic fundamentals.I'm obsessed with unique, interesting design and user-friendly functionality so hit me up with your weird artistic project ideas or app proposals
                 </p>
             </div>
         </div>

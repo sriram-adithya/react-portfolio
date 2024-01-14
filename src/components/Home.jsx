@@ -13,7 +13,7 @@ const Home = () => {
                         I'm a Full Stack Developer
                     </h2>
                     <p className="text-gray-500 py-4 max-w-md" >
-                        I have 2 years of experience in building and desgining software. Currently I love to work on Web application using technologies like HTML, JavaScript, React, Tailwind etc
+                        I have 2 years of experience in software Industry. Currently I love to work on Web application using technologies like HTML, JavaScript, React, Tailwind etc
                     </p>
                     <div>
                         <Link
