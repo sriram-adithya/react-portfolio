@@ -9,13 +9,10 @@ const About = () => {
                     <p className="text-4xl font-bold inline border-b-4 border-gray-500">About</p>
                 </div>
 
-                <p className="text-base mt-20 sm:text-xl md:text-xl lg:text-xl">
+                <p className="text-base mt-10 sm:text-xl md:text-xl lg:text-xl">
                     Hello World! I'm Sriram Adithya, based out of Chennai, India. I have been working in Accenture for the past 2 years as a devops engineer. On a daily Basis I will be monitoring applications with a use of Kibana, Appd, Grafana etc, Patching up servers and Maintaining applications in Cloud Foundary where it was deployed. Depends on the requirment will be working on features and leveraging my skills.
                 </p>
-
-                <br />
-
-                <p className='text-base mt-20 sm:text-xl md:text-xl lg:text-xl'>
+                <p className='text-base mt-10 sm:text-xl md:text-xl lg:text-xl'>
                     Currently I am learning Front-End Web Developer Fellowship in Nextleap platform where I can able to develop my skill-set from industy experts. I fall in love with web technologies like React, Tailwind and they are many more which I need to explore, I have been doing couple of projects to be strong in basic fundamentals.I'm obsessed with unique, interesting design and user-friendly functionality so hit me up with your weird artistic project ideas or app proposals
                 </p>
             </div>
