@@ -2,8 +2,6 @@ import flipkartPage from "../assets/portfolio/flipkartPage.jpg"
 import weatherApp from "../assets/portfolio/weatherApp.jpg"
 import reactSmooth from "../assets/portfolio/reactSmooth.jpg"
 import navbar from "../assets/portfolio/navbar.jpg"
-import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg"
-import installNode from "../assets/portfolio/installNode.jpg"
 
 
 const portfolios =[
@@ -26,18 +24,7 @@ const portfolios =[
     id:4,
     src: navbar,
     link: 'https://github.com/sriram-adithya/weatherApp'
-  },
-  {
-    id:5,
-    src: arrayDestruct,
-    link: 'https://github.com/sriram-adithya/weatherApp'
-  },
-  {
-    id:6,
-    src: installNode,
-    link: 'https://github.com/sriram-adithya/weatherApp'
-  },
-  
+  }, 
 ]
 
 const Portfolio = () => {
