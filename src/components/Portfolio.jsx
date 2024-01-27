@@ -1,6 +1,6 @@
 import flipkartPage from "../assets/portfolio/flipkartPage.jpg"
 import weatherApp from "../assets/portfolio/weatherApp.jpg"
-import reactSmooth from "../assets/portfolio/reactSmooth.jpg"
+import twitter from "../assets/portfolio/twitter_11zon.jpg"
 import navbar from "../assets/portfolio/navbar.jpg"
 
 
@@ -17,8 +17,8 @@ const portfolios =[
   },
   {
     id:3,
-    src: reactSmooth,
-    link: 'https://github.com/sriram-adithya/weatherApp'
+    src: twitter,
+    link: 'https://github.com/sriram-adithya/twitter-clone-react'
   },
   {
     id:4,
