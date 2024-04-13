@@ -1,7 +1,7 @@
 import flipkartPage from "../assets/portfolio/flipkartPage.jpg"
 import weatherApp from "../assets/portfolio/weatherApp.jpg"
 import twitter from "../assets/portfolio/twitter_11zon.jpg"
-import navbar from "../assets/portfolio/navbar.jpg"
+import newYork from "../assets/portfolio/newyorktimes.jpg"
 
 
 const portfolios =[
@@ -22,8 +22,8 @@ const portfolios =[
   },
   {
     id:4,
-    src: navbar,
-    link: 'https://github.com/sriram-adithya/weatherApp'
+    src: newYork,
+    link: 'https://github.com/sriram-adithya/react-nytimes'
   }, 
 ]
 
